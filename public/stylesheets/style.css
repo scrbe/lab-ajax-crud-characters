@@ -45,9 +45,9 @@ button {
   width: 80%;
   margin: 0 auto;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-flow: row wrap;
 }
 
 .active {
@@ -104,4 +104,12 @@ button {
 
 .submit-button {
   margin: 10px 0 0 120px;
+}
+
+#deleted-character{
+  background-color: #42f471;
+}
+
+#failed-deleted-character{
+  background-color:red;
 }
